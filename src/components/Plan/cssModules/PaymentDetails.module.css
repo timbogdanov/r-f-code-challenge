@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contentLeft {
+  display: flex;
+  align-items: center;
+}
+
+.contentLeft > img {
+  width: 55px;
+  margin-right: 10px;
+}
+
+.contentRight > input {
+  width: 60px;
+  padding: 8px 10px;
+  font-size: 1.2rem;
+  border: 1px solid #dee4ee;
+  color: #b4bac3;
+  border-radius: 3px;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+.contentRight > input:focus {
+  border: 1px solid #7191fe;
+  color: #323334;
+}
+
+.contentRight > input::placeholder {
+  color: #b4bac3;
+  letter-spacing: 1px;
+}
+
+.cardDetails > h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #323233;
+}
+
+.cardDetails > p {
+  font-size: 1.2rem;
+  color: #8e96a1;
+  letter-spacing: 1.4px;
+}

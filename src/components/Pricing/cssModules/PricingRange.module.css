@@ -1,0 +1,58 @@
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .container > input[type='range'] {
+    -webkit-appearance: none;
+    width: 100%;
+    outline: none;
+  }
+
+  .container > input[type='range']::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #e2e6ea;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .container > input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #2455fe;
+    border: 3px solid white;
+    margin-top: -6px;
+    box-shadow: 0px 0px 0px 1px #2455fe;
+    cursor: ew-resize;
+    position: relative;
+  }
+}
+
+.price {
+  font-size: 2.4rem;
+  display: flex;
+  align-items: flex-start;
+  margin: 25px 0 15px 0;
+}
+
+.price span {
+  font-size: 1rem;
+  color: #929aa4;
+}
+
+.price span:first-child {
+  margin-right: 5px;
+}
+
+.price span:last-child {
+  align-self: flex-end;
+  margin-left: 5px;
+}
+
+.meter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  color: #818995;
+  margin-top: 5px;
+}

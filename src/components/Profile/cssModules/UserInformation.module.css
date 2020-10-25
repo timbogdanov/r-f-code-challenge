@@ -1,0 +1,56 @@
+.imagesContainer {
+  width: 100%;
+  height: 100px;
+}
+
+.coverImg {
+  width: 100%;
+  height: 100px;
+  background-image: url(../../../assets/cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.profileImg {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+  border: 4px solid white;
+  left: calc(50% - 50px);
+  top: 30px;
+  background-image: url(../../../assets/profileImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.userDetails {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.fullName {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  color: #363739;
+}
+
+.city {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #a3a9b2;
+}
+
+.subscription {
+  font-size: 1.4rem;
+  background: #3c68ff;
+  color: white;
+  border-radius: 100px;
+  padding: 8px 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background: #f2f5ff;
+  margin: 20px 0;
+  border: 1px solid #7393fe;
+  border-radius: 3px;
+}
+
+.contentLeft {
+  display: flex;
+  align-items: center;
+}
+
+.contentLeft > img {
+  width: 60px;
+  margin-right: 20px;
+}
+
+.planName > h2 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.planName > button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  color: #436cff;
+  font-weight: 600;
+}
+
+.contentRight p {
+  font-size: 2.8rem;
+  display: flex;
+  align-items: baseline;
+  color: #343535;
+}
+
+.contentRight p span:first-child {
+  font-size: 1.4rem;
+  align-self: flex-start;
+  color: #949eac;
+  margin-right: 6px;
+}
+
+.contentRight p span:last-child {
+  font-size: 1.2rem;
+  color: #909dcb;
+  margin-left: 5px;
+}
